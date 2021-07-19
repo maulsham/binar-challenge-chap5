@@ -1,0 +1,163 @@
+body {
+  background: black;
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+/* Navbar */
+nav {
+  min-height: 90px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.logo {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 8rem;
+}
+.nav-link {
+  text-transform: uppercase;
+  color: white !important;
+  font-family: "Open Sans";
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 2rem;
+}
+header {
+  display: flex;
+}
+/* Main Section */
+#main-tg {
+  background-image: url("../assets/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
+.main-text h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 12rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+.main-text p {
+  font-size: 24px;
+  margin: 4rem;
+  letter-spacing: 0.3rem;
+}
+.scroll-down {
+  margin-top: 20rem;
+}
+.scroll-down p {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: -0.4rem;
+  font-size: 10px;
+}
+.btn {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 15px 90px;
+  background: linear-gradient(#ffb548, #f3af34);
+  margin-top: 4rem;
+}
+/* About & Gallery Section */
+#about-tg {
+  background-image: url("../assets/the-games-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
+.gallery-carousel {
+  margin-top: 15rem;
+}
+#about-tg p {
+  margin-top: 11rem;
+  font-family: Arial;
+  font-size: 24px;
+}
+#about-tg h4 {
+  font-family: Arial;
+  font-size: 56px;
+  letter-spacing: 0.2rem;
+}
+/* Features Section */
+#features-tg {
+  background-image: url("../assets/features.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
+#features-tg p {
+  margin-top: 11rem;
+  font-family: Arial;
+  font-size: 24px;
+}
+#features-tg h4 {
+  font-family: Arial;
+  font-size: 56px;
+  letter-spacing: 0.2rem;
+}
+.features_title {
+  padding-bottom: 2rem;
+}
+.timeline_container {
+  position: relative;
+}
+.timeline_point {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid white;
+}
+.timeline_line {
+  position: absolute;
+  width: 0.2rem;
+  height: 8rem;
+  left: 0.7rem;
+  background-color: white;
+}
+/* Requirements Section */
+#requirements-tg {
+  background-image: url(".. /assets/requirements.png");
+  background-color: radial-gradient(circle, white, white);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
